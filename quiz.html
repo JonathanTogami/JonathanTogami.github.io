@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Home</title>
+		<!-- Jonathan Togami-->
+		<!-- CSCE 102-->
+		<!--Section 15-->
+		<!--January 18 2023-->
+		<meta charset="utf-8">
+		<link href="styles.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="content">
+			<header>
+				<h1>Jonathan Togami</h1>
+			</header>
+			<nav id="main-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</nav>
+			<section class="col-container">
+			<main>
+				<p>
+					<label for="sel-one">What does a paragraph tag look like?</label>
+					<select id="sel-one">
+					<option>(p)</option>
+					<option value="an1" id="a1">&lt;p&gt;</option>
+					<option>paragraph</option>
+					<option>{p}</option>
+					</select>
+				</p>
+				<p>
+					<label for="sel-two">How do you properly link a style sheet to an HTML?</label>
+					<select id="sel-two">
+					<option value="an2" id="a2">&lt;link href="styles.css" rel="stylesheet"&gt;</option>
+					<option>&lt;img src="images/styles.jpg" alt="styles"&gt;</option>
+					<option>&lt;p&gt;styles.css&lt;p&gt;</option>
+					<option>&lt;stylesheet&gt;</option>
+					</select>
+				</p>
+				<p>
+					<label for="sel-three">What letter means count in javascript?</label>
+					<select id="sel-three">
+					<option>p</option>
+					<option>c</option>
+					<option value="an3" id="a3">i</option>
+					<option>e</option>
+					</select>
+				</p>
+				<p>
+					<label for="sel-four">When styling an id which is the proper format?</label>
+					<select id="sel-four">
+					<option value="an4" id="a4">#idname</option>
+					<option>.idname</option>
+					<option>(idname)</option>
+					<option>"idname"</option>
+					</select>
+				</p>
+				<button id="btn-grade" onclick="showGrade()" >Submit</button>
+				<div id="result" class="hidden">
+					<h2>Quiz Results</h2>
+					<p id="q1">Question 1 - </p>
+					<p id="q2">Question 2 - </p>
+					<p id="q3">Question 3 - </p>
+					<p id="q4">Question 4 - </p>
+					<p id="grade"><p>
+				</div>
+			</main>
+			</section>
+			<footer>
+				<p>&copy;JonathanTogami</p>
+			</footer>
+			</div>
+		<script src="script.js"></script>
+	</body>
+</html>
